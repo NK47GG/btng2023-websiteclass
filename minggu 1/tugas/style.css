@@ -1,0 +1,70 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 2em;
+    border: 8px black double;
+    border-radius: 20px;
+}
+
+.wrapper h1 {
+    margin-bottom: 0.5em;
+}
+
+.wrapper-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.wrapper-img img {
+    border-radius: 8px;
+}
+
+.wrapper-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-content a {
+    color: white;
+    text-decoration: none;
+    margin-top: 1em;
+    padding: 0.8em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(12, 11, 11, 0.945);
+    font-weight: 300;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.form-btn .input {
+    padding: 0.4em;
+    border-radius: 12px;
+    border: 2px solid rgb(83, 62, 62);
+    text-decoration: none;
+    color: black;
+}
+
+.form-btn .input:hover {
+    cursor: pointer;
+    background-color: rgb(255, 224, 47);
+}
