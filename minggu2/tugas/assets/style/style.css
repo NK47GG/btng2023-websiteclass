@@ -192,7 +192,6 @@ main {
 .circle {
     width: 6em;
     height: 6em;
-    border: 1px black solid;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -203,7 +202,6 @@ main {
 .circle-contact {
     width: 10em;
     height: 10em;
-    border: 1px black solid;
     border-radius: 50%;
     display: flex;
     align-items: center;
