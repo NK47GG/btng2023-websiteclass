@@ -1,0 +1,47 @@
+/* Element selector */
+h1 {
+    color: rgb(21, 21, 88);
+}
+
+/* id selector */
+#judul {
+    font-weight: 800;
+}
+
+.sub-judul {
+    color: red;
+    text-shadow: 1px 2px 4px black;
+}
+
+.content {
+    font-style: italic;
+    color: yellowgreen;
+}
+
+.p1, .p3 {
+    color: blue;
+}
+
+.link:hover {
+    color: greenyellow;
+}
+
+
+.box {
+    border: 10px greenyellow ridge;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.884);
+    margin: 15px;
+}
+
+.box .content {
+    text-align: justify;
+}
+
+body {
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 100%;
+}
