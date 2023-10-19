@@ -1,0 +1,30 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+.logo-red {
+    color: rgb(230, 20, 20)
+}
+
+html {
+    background-color: #0f0f0f;
+    width: 100%;
+
+}
+
+.bg-dark {
+    background-color: #0f0f0f !important;
+
+}
+
+.large-card {
+    width: 18rem;
+}
+
+@media (min-width: 800px) {
+    .large-card {
+        width: 100%;
+        font-size: 14px;
+        height: 25em;
+    }
+}
