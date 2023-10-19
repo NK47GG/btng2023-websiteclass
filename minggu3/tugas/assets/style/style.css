@@ -21,6 +21,11 @@ html {
     width: 18rem;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
+
 @media (min-width: 800px) {
     .large-card {
         width: 100%;
