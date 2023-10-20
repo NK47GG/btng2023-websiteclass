@@ -1,39 +1,9 @@
 * {
-    font-family: 'Outfit', sans-serif;
+    /* font-family: "Gabarito", sans-serif;
+    font-family: "Pixelify Sans", sans-serif; */
+    font-family: "Poppins", sans-serif;
 }
 
-.logo-red {
-    color: rgb(230, 20, 20)
-}
-
-html {
-    background-color: #0f0f0f;
-    width: 100%;
-
-}
-
-.bg-dark {
-    background-color: #0f0f0f !important;
-
-}
-
-.large-card {
-    width: 18rem;
-}
-
-.text-justify {
-    text-align: justify;
-}
-
-.accordion-button:hover {
-    color: red;
-    background-color: wheat;
-}
-
-@media (min-width: 800px) {
-    .large-card {
-        width: 100%;
-        font-size: 14px;
-        height: 25em;
-    }
+.bg-light {
+    background-color: #edf4ff !important;
 }
